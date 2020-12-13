@@ -56,8 +56,9 @@ async def start(context,minutes):
         current_time = t.time()
         #If a stop is detected from first message history
         messages = await context.channel.history(limit=1,oldest_first=False).flatten()
-
-        if messages[0].content == "+stop": ##
+        
+        #Checked most recent message
+        if messages[0].content == "+stop":
             await context.send(f"The debate ended early and lasted {round((t.time()-true_initial)/60,2)} minute(s).")
             running = False
 
