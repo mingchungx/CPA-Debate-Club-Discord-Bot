@@ -3,7 +3,7 @@ from discord.ext import commands
 import time as t
 
 #Bot Token
-TOKEN = "Nzg2NTk0NzA5ODc1MzI3MDE3.X9IraQ.WmHSMrHaGTb_E1L4uy2L4nGzyQs"
+TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 #Command Prefix for bot "Client"
 client = commands.Bot(command_prefix = "+")
