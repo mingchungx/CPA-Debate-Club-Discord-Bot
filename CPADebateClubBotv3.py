@@ -294,7 +294,7 @@ async def SHI(context,minutes):
             "15 Seconds Left - Grace.",
             "10 Seconds Left.",
             "5 Seconds Left",
-            "Grace Over.\nThe speech ended and lasted 3 minutes."
+            "Grace Over.\nThe speech ended and lasted 5 minutes."
             )
         
         intervals = (
