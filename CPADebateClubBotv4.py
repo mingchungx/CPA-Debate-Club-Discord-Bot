@@ -615,8 +615,8 @@ async def CPLO(context,minutes):
     intervals = (
         0,
         60,
-        int(minutes)*60-240,
-        180,
+        int(minutes)*60-300,
+        240,
         5,
         5,
         5
