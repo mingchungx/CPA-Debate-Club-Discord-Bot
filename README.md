@@ -19,7 +19,7 @@ No hosting has been set up for this, thus you would need to set up your own serv
 git remote add origin https://github.com/mingchungx/Debate-Bot.git
 git add .
 git commit -m "message"
-git push origin development
+git push origin main
 ```
 
 
