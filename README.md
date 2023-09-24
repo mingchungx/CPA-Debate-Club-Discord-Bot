@@ -25,5 +25,5 @@ git push origin main
 
 ## Authors
 
-Mingchung Xia, Co-Founder @ Eclipse - Fullstack Development
+Mingchung Xia
 
